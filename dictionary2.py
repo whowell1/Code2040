@@ -26,5 +26,5 @@ exists= search(needle,haystack)
 validate = "http://challenge.code2040.org/api/haystack/validate"
 
 
-#myToken= {'token':'b02a6c9eeaf28fac7d94e2cec7e89680','needle': exists}
+
 send= requests.post(validate,json={'token':'b02a6c9eeaf28fac7d94e2cec7e89680','needle': exists})
